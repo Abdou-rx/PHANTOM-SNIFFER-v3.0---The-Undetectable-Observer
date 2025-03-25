@@ -1,8 +1,11 @@
 // Usage:
-// const phantom = new PhantomSniffer('https://youtube.com/watch?v=dQw4w9WgXcQ', {
-//   stealthMode: true,
-//   encryptionKey: 'user-provided-key-optional'
-// });
+
+```js 
+const phantom = new PhantomSniffer('https://youtube.com/watch?v=dQw4w9WgXcQ', {
+  stealthMode: true,
+  encryptionKey: 'user-provided-key-optional'
+});
+```
 
 /**
  * This isn't just code - it's a statement. 

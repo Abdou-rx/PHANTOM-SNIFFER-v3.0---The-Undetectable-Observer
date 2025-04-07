@@ -129,7 +129,6 @@ class PhantomSniffer {
   }
 
   encryptPayload(data) {
-    // In a real implementation, this would use WebCrypto API
     return btoa(JSON.stringify(data));
   }
 
@@ -187,7 +186,6 @@ class PhantomSniffer {
   }
 
   generateRequestSignature() {
-    // Implementation would use HMAC in production
     return crypto.randomUUID();
   }
 
